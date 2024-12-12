@@ -35,7 +35,11 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
 
 .task-row-wrapper {
@@ -106,7 +110,7 @@ label[for="new__task"] {
   margin: 0 0 20px;
 }
 
-input#new__task {
+#new__task {
   width: 318px;
 }
 
@@ -125,11 +129,11 @@ li > * {
   vertical-align: middle;
 }
 
-.item > input[type="checkbox"] {
+.item> input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.itemi > label {
+.item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -157,13 +161,13 @@ button.delete img:hover {
 }
 
 /* Edit Task */
-.item  input[type=text] {
+.input-text {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode .input-text {
   display: inline-block;
-  width:224px;
+  width: 224px;
 }
 
 .edit-mode label {
