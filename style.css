@@ -42,7 +42,7 @@ body {
   width: 226px;
 }
 
-.task-row-wrapper {
+.new__wrapper {
   display: flex;
 }
 
@@ -155,7 +155,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed label {
   text-decoration: line-through;
   color: #888;
 }
