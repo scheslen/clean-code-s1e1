@@ -6,21 +6,22 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="header">
-      <img src="./eisenhower-matrix.jpg">
+    <header class="header">
+      <img src="./eisenhower-matrix.jpg"  alt="matrix">
       <a
         class="header__more-inf"
         href="https://goal-life.com/page/method/matrix-eisenhower"
       >
         Want more details?
       </a>
-    </div>
-    <div class="main">
+    </header>
+
+    <main class="main">
 
       <p id="add">
-        <label for="new-task">Add Item</label>
+        <label for="add__new-task">Add Item</label>
         <div class="add__new-task">
-          <input id="new-task" class="task" type="text">
+          <input id="add__new-task" class="task" type="text">
           <button>Add</button>
         </div>
       </p>
@@ -33,7 +34,7 @@
           <input type="text" class="task">
           <button class="edit">Edit</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg"  alt="remove">
           </button>
         </li>
         <li class="edit-mode">
@@ -42,7 +43,7 @@
           <input type="text" value="Go Shopping" class="task">
           <button class="edit">Save</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg" alt="remove">
           </button>
         </li>
       </ul>
@@ -55,11 +56,11 @@
           <input type="text" class="task">
           <button class="edit">Edit</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg" alt="remove">
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
